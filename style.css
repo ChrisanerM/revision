@@ -22,22 +22,76 @@ h2{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
+    margin-top: 1px;
 }
 
 p{
     background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 img{
     border-radius: 50%;
-    margin-left: 550px;
+    margin-left: 600px;
     
+}
+
+/*Styling form */
+form {
+    background-color: beige;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 25px;
+    font-style: italic;
+}
+
+#firstname {
+    border-color: tan;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px;
+}
+#email {
+    border-color: tan;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px;
+}
+
+input[type=submit]{
+    background-color: palevioletred;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    padding:10px 25px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: azure;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     margin-top: 200px;
 }
